@@ -1,7 +1,7 @@
 # Documentation: https://docs.brew.sh/Formula-Cookbook
 #                http://www.rubydoc.info/github/Homebrew/brew/master/Formula
 # PLEASE REMOVE ALL GENERATED COMMENTS BEFORE SUBMITTING YOUR PULL REQUEST!
-class MdToc < Formula
+class Mdtoc < Formula
   desc "CLI tool to create text file from template and manage templates."
   homepage ""
   url "https://github.com/takaishi/mdtoc/releases/download/v0.0.1/mdtoc_0.0.1_darwin_amd64.zip"
