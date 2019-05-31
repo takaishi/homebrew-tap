@@ -2,9 +2,9 @@
 class VaultPki < Formula
   desc "CLI tool to Generate and insert markdown's table of contents"
   homepage "https://github.com/takaishi/mdtoc"
-  url "https://github.com/takaishi/vault-pki/releases/download/0.0.7/vault-pki_0.0.7_Darwin_x86_64.tar.gz"
-  version "0.0.7"
-  sha256 "8d4ebc045440754eef10d4d2ef9c5cc4979b860dd277bd19b019f4acd39a2477"
+  url "https://github.com/takaishi/vault-pki/releases/download/0.0.9/vault-pki_0.0.9_Darwin_x86_64.tar.gz"
+  version "0.0.9"
+  sha256 "8bcfca98a6251ac57328ee3f7d1092ebdc99bf97d7fea45ca6a8fc1efb7990a8"
 
   def install
     bin.install Dir['vault-pki']
