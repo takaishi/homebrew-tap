@@ -2,16 +2,16 @@
 class FishHistoryGc < Formula
   desc "CLI tool to Generate and insert markdown's table of contents"
   homepage "https://github.com/takaishi/fish-history-gc"
-  version "0.0.1"
+  version "0.0.2"
   bottle :unneeded
 
   if OS.mac?
-    url "https://github.com/takaishi/fish-history-gc/releases/download/v0.0.1/fish-history-gc_0.0.1_Darwin_x86_64.tar.gz"
-    sha256 "17309b69e20505af9dd944a01c13c5f19bcb2488cc8fb30b5ed29eb9ccbc88e6"
+    url "https://github.com/takaishi/fish-history-gc/releases/download/v0.0.2/fish-history-gc_0.0.2_Darwin_x86_64.tar.gz"
+    sha256 "b997b4ed9b9739a40c3592a95a0d9167e1ad10733a875d4463193b48197e0d58"
   elsif OS.linux?
     if Hardware::CPU.intel?
-      url "https://github.com/takaishi/fish-history-gc/releases/download/v0.0.1/fish-history-gc_0.0.1_Linux_x86_64.tar.gz"
-      sha256 "2b81403bf69b3593250b7cc6b99d343ddcf33a6dc5f83fecf2d6e6b35a07c2c6"
+      url "https://github.com/takaishi/fish-history-gc/releases/download/v0.0.2/fish-history-gc_0.0.2_Linux_x86_64.tar.gz"
+      sha256 "b43f5837ba0071a0cb7d5cdafbc651b042aae88207790d8f7125cbd7bc00225d"
     end
   end
 
