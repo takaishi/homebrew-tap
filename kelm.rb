@@ -2,16 +2,16 @@
 class Kelm < Formula
   desc "CLI tool to Generate and insert markdown's table of contents"
   homepage "https://github.com/takaishi/kelm"
-  version "0.0.5"
+  version "0.0.6"
   bottle :unneeded
 
   if OS.mac?
-    url "https://github.com/takaishi/kelm/releases/download/v0.0.5/kelm_0.0.5_Darwin_x86_64.tar.gz"
-    sha256 "c273bd1f741d6e34ad6e1fdf05260bf6c72396447a6cf90bf893ba07e3a322c2"
+    url "https://github.com/takaishi/kelm/releases/download/v0.0.6/kelm_0.0.6_Darwin_x86_64.tar.gz"
+    sha256 "c410ab184d3d9996ab1ef87a8f957043dc9e5a93d42abac1e22d0d60df0ae8c7"
   elsif OS.linux?
     if Hardware::CPU.intel?
-      url "https://github.com/takaishi/kelm/releases/download/v0.0.5/kelm_0.0.5_Linux_x86_64.tar.gz"
-      sha256 "ad7b555ba27d5b9314f86c031bb66ddf2b7219a59eb0e39200921f3552288221"
+      url "https://github.com/takaishi/kelm/releases/download/v0.0.6/kelm_0.0.6_Linux_x86_64.tar.gz"
+      sha256 "45c7bd0890889b4637d2483c4711fc7b1c4f3ab7ccdeb8e86342f98600016e43"
     end
   end
 
