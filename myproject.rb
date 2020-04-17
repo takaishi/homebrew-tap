@@ -7,11 +7,11 @@ class Myproject < Formula
 
   if OS.mac?
     url "https://github.com/takaishi/fish-history-gc/releases/download/v0.0.9/fish-history-gc_0.0.9_Darwin_x86_64.tar.gz"
-    sha256 "6814ca6407297237187cfcdb67c4d8d7f2b400eaf01e1e049e6d9a4b189a7bfa"
+    sha256 "d110cef77b89fbf3ec4ba72f0ffcad97d743d99eb9e248034d8451bf8fd42014"
   elsif OS.linux?
     if Hardware::CPU.intel?
       url "https://github.com/takaishi/fish-history-gc/releases/download/v0.0.9/fish-history-gc_0.0.9_Linux_x86_64.tar.gz"
-      sha256 "32239688cbcbbc41314eefccf80f0714f84b57fa03974452df77372c3f8fc8a1"
+      sha256 "965d12d9cfb83610c1a40be18f90caeafcaf465c9756574c4ba4c7634efbba6e"
     end
   end
 
