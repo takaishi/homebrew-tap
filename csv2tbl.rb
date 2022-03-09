@@ -5,20 +5,20 @@
 class Csv2tbl < Formula
   desc "`csv2tbl` is tool to convert csv to table."
   homepage "https://github.com/takaishi/csv2tbl"
-  version "0.0.2"
+  version "0.0.1"
 
   on_macos do
-    if Hardware::CPU.intel?
-      url "https://github.com/takaishi/csv2tbl/releases/download/v0.0.2/csv2tbl_0.0.2_darwin_amd64.tar.gz"
-      sha256 "9a185939f01c1a1ab7bee22666d61be07e472d36abb5b55c9861989aed930f4e"
+    if Hardware::CPU.arm?
+      url "https://github.com/takaishi/csv2tbl/releases/download/v0.0.1/csv2tbl_0.0.1_darwin_arm64.tar.gz"
+      sha256 "cb67c1132a73279f5219e48f24b842ef16380489a2e2f89c673f6cfc9de4c41d"
 
       def install
         bin.install Dir['csv2tbl']
       end
     end
-    if Hardware::CPU.arm?
-      url "https://github.com/takaishi/csv2tbl/releases/download/v0.0.2/csv2tbl_0.0.2_darwin_arm64.tar.gz"
-      sha256 "e570e9b032eccfe4cf04bc443e437af30944c0f5d2a465207cad60a81357e1f1"
+    if Hardware::CPU.intel?
+      url "https://github.com/takaishi/csv2tbl/releases/download/v0.0.1/csv2tbl_0.0.1_darwin_amd64.tar.gz"
+      sha256 "cdc3ad4a572305ca9fd6bd3d9b450e40c7848ced9448167c939462d5e97993c4"
 
       def install
         bin.install Dir['csv2tbl']
@@ -27,17 +27,17 @@ class Csv2tbl < Formula
   end
 
   on_linux do
-    if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
-      url "https://github.com/takaishi/csv2tbl/releases/download/v0.0.2/csv2tbl_0.0.2_linux_arm64.tar.gz"
-      sha256 "d173caf3052b123bfaeaca990234b0762534c8c49f8d96fdaabb8cadf6026622"
+    if Hardware::CPU.intel?
+      url "https://github.com/takaishi/csv2tbl/releases/download/v0.0.1/csv2tbl_0.0.1_linux_amd64.tar.gz"
+      sha256 "61e3c7d276be7c2438272ef5945a757a59af5783f053b76180391f057ab07458"
 
       def install
         bin.install Dir['csv2tbl']
       end
     end
-    if Hardware::CPU.intel?
-      url "https://github.com/takaishi/csv2tbl/releases/download/v0.0.2/csv2tbl_0.0.2_linux_amd64.tar.gz"
-      sha256 "cd7049cc0dac18c3edef36e763c61c00e088790fd0b83e544612c42e45b2bcc8"
+    if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
+      url "https://github.com/takaishi/csv2tbl/releases/download/v0.0.1/csv2tbl_0.0.1_linux_arm64.tar.gz"
+      sha256 "1ee6a71607b81d2ec2477724d406ff3d1546cb187e35e49df56e9c58f315bdc3"
 
       def install
         bin.install Dir['csv2tbl']
