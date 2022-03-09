@@ -3,7 +3,6 @@ class FishHistoryGc < Formula
   desc "CLI tool to Generate and insert markdown's table of contents"
   homepage "https://github.com/takaishi/fish-history-gc"
   version "0.0.9"
-  bottle :unneeded
 
   if OS.mac?
     url "https://github.com/takaishi/fish-history-gc/releases/download/v0.0.9/fish-history-gc_0.0.9_Darwin_x86_64.tar.gz"
