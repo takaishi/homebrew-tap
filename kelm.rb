@@ -3,7 +3,6 @@ class Kelm < Formula
   desc "CLI tool to Generate and insert markdown's table of contents"
   homepage "https://github.com/takaishi/kelm"
   version "0.0.6"
-  bottle :unneeded
 
   if OS.mac?
     url "https://github.com/takaishi/kelm/releases/download/v0.0.6/kelm_0.0.6_Darwin_x86_64.tar.gz"
