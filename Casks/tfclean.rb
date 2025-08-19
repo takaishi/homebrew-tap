@@ -13,22 +13,22 @@ cask "tfclean" do
   on_macos do
     on_intel do
       url "https://github.com/takaishi/tfclean/releases/download/v0.0.11/tfclean_Darwin_x86_64.tar.gz"
-      sha256 "680506e0ed6dcf204c82c6574c0555fd392d434fa2defae0b2928c7bbb801a9e"
+      sha256 "136f22a799180f737bc5c0e062ae2cf78ca612e0c4d403ce04760ccdfeada95a"
     end
     on_arm do
       url "https://github.com/takaishi/tfclean/releases/download/v0.0.11/tfclean_Darwin_arm64.tar.gz"
-      sha256 "dba52ea2dacaf3b6bb2cb1bbfffa7527868e0c137fff3b6ff3ac00acdb9ba445"
+      sha256 "2eee2b1e0f68b5d8da7a4de539f3f76ce56fac5f893ba293c2a9a92abf2d63a7"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/takaishi/tfclean/releases/download/v0.0.11/tfclean_Linux_x86_64.tar.gz"
-      sha256 "1cb9925f3d6e770bf943f2bcae172dafbf60cdf096a3870952c937b441849170"
+      sha256 "bc58e9749f338c3723b763ee97e0cff404bdf0ba9b9eb2669d9ff00dd4c40865"
     end
     on_arm do
       url "https://github.com/takaishi/tfclean/releases/download/v0.0.11/tfclean_Linux_arm64.tar.gz"
-      sha256 "e1245f424213e7113b1f9b89aabec7de35cee94e075f6d243a139ee7f1b2d7b8"
+      sha256 "8981457f9f074a0a8add4207fa2ecd8029133ffff3ad9bbb18b86ed3aef36037"
     end
   end
 
