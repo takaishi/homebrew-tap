@@ -2,7 +2,7 @@
 cask "tfclean" do
   desc "CLI tool to clean up unused Terraform states"
   homepage "https://github.com/takaishi/tfclean"
-  version "0.0.13"
+  version "0.0.14"
 
   livecheck do
     skip "Auto-generated on release."
@@ -12,23 +12,23 @@ cask "tfclean" do
 
   on_macos do
     on_intel do
-      url "https://github.com/takaishi/tfclean/releases/download/v0.0.13/tfclean_Darwin_x86_64.tar.gz"
-      sha256 "19f9f94ca004dbaa15e68bfbbbda82ba9543dc0b7038b56ce05de18591562327"
+      url "https://github.com/takaishi/tfclean/releases/download/v0.0.14/tfclean_Darwin_x86_64.tar.gz"
+      sha256 "8699fea39c52d15c3fbf2b0cc97d068d9500c878767b877e5bf66436ed4305f2"
     end
     on_arm do
-      url "https://github.com/takaishi/tfclean/releases/download/v0.0.13/tfclean_Darwin_arm64.tar.gz"
-      sha256 "04ec8aa666b48d82260db2ffa229f459816f760a98eecb97ba3ebd43f6b07363"
+      url "https://github.com/takaishi/tfclean/releases/download/v0.0.14/tfclean_Darwin_arm64.tar.gz"
+      sha256 "bcaaf326c5ff6c9824f80f8b62c1e9547368951f5d4dfde0f3ae34cec9045dfc"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/takaishi/tfclean/releases/download/v0.0.13/tfclean_Linux_x86_64.tar.gz"
-      sha256 "ce0064d8111c0b03372fc0316dfbc8c38dd342bf7b96207b611dbe5de1820777"
+      url "https://github.com/takaishi/tfclean/releases/download/v0.0.14/tfclean_Linux_x86_64.tar.gz"
+      sha256 "5bc6b08fad16bab7cfd9e44fb4dd0ea9f4b7dc8220f701dedf8cf08ed7f3c882"
     end
     on_arm do
-      url "https://github.com/takaishi/tfclean/releases/download/v0.0.13/tfclean_Linux_arm64.tar.gz"
-      sha256 "4587e3c56d8c7c9164d58093c3b684f6f46964aa9cf1f40cba6fd253ff53f099"
+      url "https://github.com/takaishi/tfclean/releases/download/v0.0.14/tfclean_Linux_arm64.tar.gz"
+      sha256 "f08a9e94e97a1a20ddbf572e9ff0f7640e78387162a2bda62add4d2d4444393a"
     end
   end
 
